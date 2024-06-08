@@ -23,10 +23,10 @@ public class Main{
             ControladorPersonajes controladorPersonajes = new ControladorPersonajes(database);
             ControladorEstudio controladorEstudio = new ControladorEstudio(database); 
 
-            /*crearAnime(controladorAnime);*/
-            /*leerAnimes(controladorAnime);
-            actualizarAnime(controladorAnime);*/
-            eliminarAnime(controladorAnime);
+            /*crearAnime(controladorAnime);
+            leerAnimes(controladorAnime);
+            actualizarAnime(controladorAnime);
+            eliminarAnime(controladorAnime);*/
 
            /*crearPersonaje(controladorPersonajes);
             leerPersonajes(controladorPersonajes);
