@@ -48,7 +48,7 @@ public class RepositorioAnime {
     }
 
     public void actualizarAnime(String id, Anime animeActualizado){
-        Document documentoActualizado = new Document("title", animeActualizado.getTitulo())
+        Document documentoActualizado = new Document("Título", animeActualizado.getTitulo())
             .append("Género", animeActualizado.getGenero())
             .append("Autor", animeActualizado.getAutor());
         collection.updateOne(eq("_id", new ObjectId(id)), new Document("$set", documentoActualizado));
