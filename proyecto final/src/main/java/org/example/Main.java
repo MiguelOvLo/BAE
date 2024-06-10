@@ -23,20 +23,20 @@ public class Main{
             ControladorPersonajes controladorPersonajes = new ControladorPersonajes(database);
             ControladorEstudio controladorEstudio = new ControladorEstudio(database); 
 
-            /*crearAnime(controladorAnime);
-            leerAnimes(controladorAnime);
-            actualizarAnime(controladorAnime);
-            eliminarAnime(controladorAnime);*/
+            /*crearAnime(controladorAnime);*/
+            /*leerAnimes(controladorAnime);*/
+            /*actualizarAnime(controladorAnime);*/
+            /*eliminarAnime(controladorAnime);*/
 
-           /*crearPersonaje(controladorPersonajes);
-            leerPersonajes(controladorPersonajes);
-            actualizarPersonaje(controladorPersonajes);
-            eliminarPersonaje(controladorPersonajes);*/
+           /*crearPersonaje(controladorPersonajes);*/
+            /*leerPersonajes(controladorPersonajes);*/
+            /*actualizarPersonaje(controladorPersonajes);*/
+            /*eliminarPersonaje(controladorPersonajes);*/
 
-            /*crearEstudio(controladorEstudio);
-            leerEstudios(controladorEstudio);
-            actualizarEstudio(controladorEstudio);
-            eliminarEstudio(controladorEstudio);*/
+            /*crearEstudio(controladorEstudio);*/
+            /*leerEstudios(controladorEstudio);*/
+            /*actualizarEstudio(controladorEstudio);*/
+            /*eliminarEstudio(controladorEstudio);*/
             
            
         }
@@ -59,7 +59,7 @@ public class Main{
         if (!animes.isEmpty()) {
             Anime anime = animes.get(0);
             controladorAnime.actualizarAnime(anime.getId(), "Naruto Shippuden", "Shonen", "Masashi Kishimoto");
-            System.out.println("Anime actualizado a "+anime.getTitulo());
+            System.out.println("Anime actualizado.");
         }
     }
 
@@ -90,7 +90,7 @@ public class Main{
         if (!personajes.isEmpty()) {
             Personajes personaje = personajes.get(0);
             controladorPersonajes.actualizarPersonaje(personaje.getId(), "Naruto Uzumaki", "Naruto");
-            System.out.println("Anime actualizado a "+personaje.getNombre());
+            System.out.println("Personaje actualizado.");
         }
     }
 
@@ -120,7 +120,7 @@ public class Main{
         if (!estudios.isEmpty()) {
             Estudio estudio = estudios.get(0);
             controladorEstudio.actualizarEstudio(estudio.getId(), "mappa", "Tokyo");
-            System.out.println("Estudio actualizado a "+estudio.getNombre());
+            System.out.println("Estudio actualizado.");
         }
     }
 
@@ -129,7 +129,7 @@ public class Main{
         if (!estudios.isEmpty()) {
             Estudio estudio = estudios.get(0);
             controladorEstudio.eliminarEstudio(estudio.getId());
-            System.out.println("Nombre"+estudio.getNombre()+"eliminado.");
+            System.out.println("Estudio eliminado.");
             
         }
     }
