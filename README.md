@@ -7,9 +7,9 @@ Proyecto BAE | Miguel Ovalle López | Bases de Datos 1ºDAM
 
 ## Tablas
 
-- Anime:
-- Personaje:
-- Estudio:
+- Anime
+- Personaje
+- Estudio
 
 
 ## Descripción de las Principales Funcionalidades Implementadas
