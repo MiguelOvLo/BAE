@@ -8,17 +8,17 @@ Proyecto BAE | Miguel Ovalle López | Bases de Datos 1ºDAM
 ## Modelo de datos
 
 - Anime:
-  - Título (String): El título del anime.
-  - Género (String): El género del anime.
-  - Autor (String):  El autor del anime.
+  - Título: El título del anime.
+  - Género: El género del anime.
+  - Autor:  El autor del anime.
 
 - Personaje:
-  - Nombre (String): El nombre del personaje.
-  - Anime (String): El anime al que pertenece el personaje.
+  - Nombre: El nombre del personaje.
+  - Anime: El anime al que pertenece el personaje.
 
 - Estudio:
-  - Nombre (String): El nombre del estudio.
-  - Ubicación (String): La ubicación del estudio.
+  - Nombre: El nombre del estudio.
+  - Ubicación: La ubicación del estudio.
 
 ## Descripción de las Principales Funcionalidades Implementadas
 >El programa implementa las operaciones CRUD (Crear, Leer, Actualizar y Eliminar) para cada una de las colecciones.
