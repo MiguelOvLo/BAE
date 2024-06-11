@@ -14,7 +14,7 @@ Proyecto BAE | Miguel Ovalle López | Bases de Datos 1ºDAM
 
 - Personaje:
   - Nombre: El nombre del personaje.
-  - Anime: El anime al que pertenece el personaje.
+  - Anime: La serie a la que pertenece el personaje.
 
 - Estudio:
   - Nombre: El nombre del estudio.
