@@ -3,7 +3,7 @@
 Proyecto BAE | Miguel Ovalle López | Bases de Datos 1ºDAM
 
 ## ¿En qué consiste este proyecto?
->Proyecto de final de curso para la asignatura de Base de Datos que consiste en desarrollar una aplicación personalizada de gestión, capaz de crear, leer, actualizar y eliminar (CRUD) información relevante utilizando Mongodb Atlas como base de datos no relacional y utilizando Maven como herramienta de gestión de dependencias y para la construcción del proyecto.
+>Proyecto de final de curso para la asignatura de Base de Datos que consiste en desarrollar una aplicación personalizada de gestión, capaz de crear, leer, actualizar y eliminar (CRUD) información relevante utilizando Mongodb Atlas como base de datos no relacional y utilizando Maven como herramienta de gestión de dependencias.
 
 ## Modelo de datos
 
