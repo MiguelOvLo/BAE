@@ -13,7 +13,7 @@ Proyecto BAE | Miguel Ovalle López | Bases de Datos 1ºDAM
 
 - Visual Studio Code
 
-<img src="img/code.png" width="200"/>
+<img src="img/code.jpeg" width="200"/>
 
 
 ## Tablas
